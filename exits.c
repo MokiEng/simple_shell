@@ -58,7 +58,7 @@ char *_strncat(char *dest, char *src, int n)
 }
 
 /**
- **_strchr - locates a character in a string
+ **_strchr - locates  character in  string
  *@s: the string to be parsed
  *@c: the character to look for
  *Return: (s) a pointer to the memory area s
