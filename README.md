@@ -2,6 +2,9 @@ This is the simple shell team project
 For this project, we expect you to look at these concepts:
              Everything you need to know to start coding your own shell
              Approaching a Project
+ 
+ 
+ 
  General
 Who designed and implemented the original Unix operating system
 Who wrote the first version of the UNIX shell
@@ -17,7 +20,12 @@ How does the shell use the PATH to find the programs
 How to execute another program with the execve system call
 How to suspend the execution of a process until one of its children terminates
 What is EOF / “end-of-file”?
+
+
+
 List of allowed functions and system calls
+
+
 access (man 2 access)
 chdir (man 2 chdir)
 close (man 2 close)
@@ -49,7 +57,14 @@ waitpid (man 2 waitpid)
 wait3 (man 2 wait3)
 wait4 (man 2 wait4)
 write (man 2 write)
+
+
 Compilation
+
+
 Your shell will be compiled this way:
+
+
+
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
