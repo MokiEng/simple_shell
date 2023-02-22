@@ -7,6 +7,7 @@ https://intranet.alxswe.com/concepts/64
 https://intranet.alxswe.com/concepts/350
        
 Resources
+
 https://intranet.alxswe.com/rltoken/f0YU9TAhniMXWlSXtb64Yw
 
 https://intranet.alxswe.com/rltoken/7LJOp2qP7qHUcsOK2-F3qA
@@ -114,10 +115,6 @@ write (man 2 write)
 
 Compilation
 
-
 Your shell will be compiled this way:
-
-
-
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
